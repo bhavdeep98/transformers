@@ -23,7 +23,7 @@ from botocore.exceptions import ClientError
 from filelock import FileLock
 from tqdm.auto import tqdm
 
-from . import __version__
+__version__ = "2.4.1"
 
 
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
